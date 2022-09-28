@@ -1,0 +1,27 @@
+// ROOT
+$borderRadius: 4px;
+$colorR: crimson;
+// // // // // // 
+
+.box{
+    $colorR: blue;
+    width: 400px;
+    height: 400px;
+    background-color: $colorR;
+
+    p:hover {
+        transition: 500ms;
+        background-color: yellow;
+        border: $borderRadius solid $colorR;
+    }
+    .paragraph{
+        font-family: sans-serif;
+        font-size: 45px;
+    }
+}
+
+.box-01{
+    width: 400px;
+    height: 400px;
+    background-color: $colorR;
+}
